@@ -54,6 +54,18 @@ export default function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
               style={{ border: 0 }}
               allowFullScreen
+              className="hidden md:block"
+            />
+            <iframe
+              title="MUSTGO 오시는 길"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.6173839246017!2d128.6786522756098!3d35.83386217253843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356609eb00686f3f%3A0xaeebdefbbce3f9c2!2z7Jeg7KeA64m07YS0L-yVjO2MjOyLnO2LsA!5e0!3m2!1sko!2skr!4v1776272554658!5m2!1sko!2skr"
+              width="100%"
+              height="100%"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              style={{ border: 0 }}
+              allowFullScreen
+              className="block md:hidden"
             />
           </div>
         </div>
